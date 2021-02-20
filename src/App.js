@@ -1,23 +1,23 @@
 import logo from './logo.svg';
+import React from "react";
 import './App.css';
+import Students from './students.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>I am render by parent element</h1>
+      <div className="a">
+      <Students  Name="Zubair shaikh" fatherName="shamim ahmed shaikh" age="20" course="react"/>
+      </div>
+      <div className="b">
+      <Students  Name="Owais Shaikh" fatherName="Shamim Ahmed shaikh" age="18" course="HTML/CSS"/>
+      </div>
+      <div className="c">
+      <Students  Name="Syed Anas" fatherName="Khalid" age="22" course="Angular"/>
+      </div>
+   
+     
     </div>
   );
 }

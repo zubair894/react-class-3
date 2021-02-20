@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.heading{
+  color: yellow;
+}
+ ol{
+  list-style-type: none;
+}
+/* .app{
+  border: 2px solid red;
+} */
+
+.a{
+  border: 2px solid red;
+  margin-bottom: 30px;
+}
+.b{
+  margin-bottom: 30px;
+  border: 2px solid rgb(0, 255, 128);
+}
+.c{
+  margin-bottom: 30px;
+  border: 2px solid rgb(10, 1, 1);
+}
