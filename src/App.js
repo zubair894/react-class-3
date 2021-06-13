@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import React from "react";
 import './App.css';
 import Students from './students.js';
+import Mediacard from './Mediacard'
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
       </div>
       <div className="c">
       <Students  Name="Syed Anas" fatherName="Khalid" age="22" course="Angular"/>
+      </div>
+      <div className="a">
+      <Students  Name="Syed Hunain" fatherName="Khalid" age="20" course="python"/>
       </div>
    
      

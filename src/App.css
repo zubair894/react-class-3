@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+.a{
+  border: 2px solid red;
+  margin-bottom: 30px;
+}
+.b{
+  margin-bottom: 30px;
+  border: 2px solid rgb(0, 255, 128);
+}
+.c{
+  margin-bottom: 30px;
+  border: 2px solid rgb(10, 1, 1);
+}
+
